@@ -1,0 +1,11 @@
+Proceso AreaResultante
+	Definir ladocuadrado,radiocirculo,areacuadrado,areacirculo,areacuadradomenoscirculo Como Real;
+	Escribir 'Ingresar el valor del lado del cuadrado: ';
+	Leer ladocuadrado;
+	Escribir 'Ingresar el valor del radio del circulo: ';
+	Leer radiocirculo;
+	areacuadrado <- (ladocuadrado)^2;
+	areacirculo <- pi*(radiocirculo)^2;
+	areacuadradomenoscirculo <- areacuadrado-areacirculo;
+	Escribir 'Area Resultante entre la diferencia de areas entre el cuadrado y el circulo: ',areacuadradomenoscirculo;
+FinProceso
